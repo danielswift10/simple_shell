@@ -263,7 +263,7 @@ $
 ## Authors :black_nib:
 
 * Daniel Ojeyomi <[danielswift10](https://github.com/danielswift10)>
-*  <[](https://github.com/)>
+* Ajao Malik Ayomide <[ayotech-py](https://github.com/ayotech-py)>
 
 ## More information
 
