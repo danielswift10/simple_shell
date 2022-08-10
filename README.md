@@ -20,8 +20,8 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o sodash
 
 Example:
 ```
-$ echo "echo 'holberton'" | ./sodash
-'holberton'
+$ echo "echo 'alx'" | ./sodash
+'alx'
 $
 ```
 
@@ -38,9 +38,9 @@ If a command line argument is invoked, **sodash** will take that first argument 
 Example:
 ```
 $ cat text
-echo 'holberton'
+echo 'alx'
 $ ./sodash text
-'holberton'
+'alx'
 $
 ```
 
@@ -61,7 +61,7 @@ The current working directory as set by the **cd** command.
 
 ```
 $ echo "echo $PWD" | ./sodash
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 ```
 
 #### OLDPWD
@@ -69,7 +69,7 @@ The previous working directory as set by the **cd** command.
 
 ```
 $ echo "echo $OLDPWD" | ./sodash
-/home/vagrant/holberton/bog-062019-test_suite
+/home/vagrant/alx/bog-062019-test_suite
 ```
 
 #### PATH
@@ -116,7 +116,7 @@ $ ./sodash
 Example:
 ```
 $ echo "echo $PWD" | ./sodash
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 ```
 
 #### $?
@@ -143,8 +143,8 @@ $ echo "echo $$" | ./sodash
 
 Example:
 ```
-$ echo "echo 'holberton' #this will be ignored!" | ./sodash
-'holberton'
+$ echo "echo 'alx' #this will be ignored!" | ./sodash
+'alx'
 ```
 
 ### Operators
@@ -166,11 +166,11 @@ $ echo "echo 'hello' ; echo 'world'" | ./sodash
 
 Example:
 ```
-$ echo "error! && echo 'holberton'" | ./sodash
+$ echo "error! && echo 'alx'" | ./sodash
 ./shellby: 1: error!: not found
-$ echo "echo 'my name is' && echo 'holberton'" | ./sodash
+$ echo "echo 'my name is' && echo 'alx'" | ./sodash
 'my name is'
-'holberton'
+'alx'
 ```
 
 #### || - OR logical operator
@@ -199,13 +199,13 @@ Example:
 ```
 $ ./sodash
 ^-^ pwd
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 $ cd ../
 ^-^ pwd
-/home/vagrant/holberton
+/home/vagrant/alx
 ^-^ cd -
 ^-^ pwd
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 ```
 
 #### exit
@@ -240,9 +240,9 @@ NVM_DIR=/home/vagrant/.nvm
 Example:
 ```
 $ ./sodash
-$ setenv NAME Holberton
+$ setenv NAME alx
 $ echo $NAME
-Holberton
+alx
 ```
 
 #### unsetenv
@@ -253,7 +253,7 @@ Holberton
 Example:
 ```
 $ ./sodash
-$ setenv NAME Holberton
+$ setenv NAME alx
 $ unsetenv NAME
 $ echo $NAME
 
