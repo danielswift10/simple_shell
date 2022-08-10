@@ -261,5 +261,5 @@ $
 ```
 
 ## Authors:
-Daniel Ojeyomi <danielswift10[https://github.com/danielswift10]>
+Daniel Ojeyomi <danielswift10 [https://github.com/danielswift10] >
 
