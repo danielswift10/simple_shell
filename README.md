@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="http://www.holbertonschool.com/holberton-logo.png" alt="Holberton School logo">
-</p>
 
 # Simple Shell project 0x16.c - Sodash -
 
@@ -265,8 +262,6 @@ $
 
 ## Authors & Copyrights
 
-* Luis chaparro <[luischaparroc](https://github.com/luischaparroc)>
-* Edward Ortiz <[edward0rtiz](https://github.com/edward0rtiz)>
 
 ## More information
 
