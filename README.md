@@ -260,6 +260,11 @@ $ echo $NAME
 $
 ```
 
-## Authors:
-Daniel Ojeyomi <danielswift10 [https://github.com/danielswift10] >
+## Authors :black_nib:
 
+* Daniel Ojeyomi <[danielswift10](https://github.com/danielswift10)>
+*  <[](https://github.com/)>
+
+## More information
+
+Sodash is a simple shell unix command interpreter that is part of the ALX Africa low level programming module at ALX Africa and is intended to emulate the basics sh shell. All the information given in this README is based on the sodash and bash man (1) pages.
