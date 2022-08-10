@@ -267,4 +267,4 @@ $
 
 ## More information
 
-Sodash is a simple shell unix command interpreter that is part of the ALX Africa low level programming module at ALX Africa and is intended to emulate the basics sh shell. All the information given in this README is based on the sodash and bash man (1) pages.
+Sodash is just a simple shell unix command interpreter that is part of the ALX Africa low level programming module at ALX Africa and is intended to emulate the basics sh shell. All the information given in this README is based on the sodash and bash man (1) pages.
