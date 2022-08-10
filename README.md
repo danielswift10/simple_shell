@@ -1,5 +1,5 @@
 
-# Simple Shell project 0x16.c - Sodash -
+# ALX Simple Shell project
 
 This is a simple UNIX command interpreter based on bash and Sh.
 
@@ -259,3 +259,7 @@ $ echo $NAME
 
 $
 ```
+
+## Authors:
+Daniel Ojeyomi <danielswift10[https://github.com/danielswift10]>
+
